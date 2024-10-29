@@ -23,7 +23,7 @@ function Basic() {
   const handleSubmit = (evt) => {
     evt.preventDefault(); // Предотвращаем перезагрузку страницы при отправке формы
     const name = "shreyas"; // Имя пользователя (можно сделать динамическим)
-    const request_temp = { sender: "user", sender_id: name, msg: inputMessage };
+    const request_temp = { sender: "user", sender_id: name, message: inputMessage };
 
     if (inputMessage !== "") {
       // Добавляем сообщение пользователя в историю чата
